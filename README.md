@@ -1,1 +1,0 @@
-# aomot.github.io
