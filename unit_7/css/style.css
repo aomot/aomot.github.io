@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css?family=Halant|Marcellus+SC|Merienda:400,700|Nixie+One|Share|Spinnaker');
+
+body {
+  text-align: center;
+  background: url("http://static.tumblr.com/b7c99f7a154ac6a6729ffb727d2b8370/nkmh5nb/xOAojhre5/tumblr_static_bb1br9hr300s4w040gcossg4g.jpg");
+  background-size: cover;
+  border-image-repeat: space;
+  color: #636662;
+  font-family: 'Marcellus SC', serif;
+}
+
+h2 {
+	font-size: 56px;
+	font: "Goudy Old Style"
+	line-height: 100px;
+	font-family: 'Merienda', cursive;
+}
+
+h1 {
+  text-align: center;
+  left: 200px;
+  line-height: 200px;
+  margin: auto;
+  margin-top: -100px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-size: 44px;
+  font-family: 'Marcellus SC', serif;
+
+}
+
+.main {
+  text-align: center;
+  left: 35em;
+  right: 35em;
+  line-height: 20px;
+  margin: auto;
+  margin-top: 30px;
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  padding: 30px;
+  font-family: 'Marcellus SC', serif;
+}
+
+.intro {
+  width: 60%;
+  height: 30%;
+  text-align: center;
+  left: 35em;
+  right: 35em;
+  margin-left: 20em;
+  font-family: 'Marcellus SC', serif;
+
+}
+
+.last {
+  text-align: center;
+  left: 35em;
+  right: 35em;
+  line-height: 20px;
+  margin: auto;
+  margin-top: 140px;
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  padding: 30px;
+  font-family: 'Marcellus SC', serif;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 20px;
+	margin-top: 300px;
+	padding: 50px;
+	width: 300px;
+	
+}
+
+li a {
+	text-decoration: none;
+	display: block;
+	color: #636662;
+	padding: 10px;
+}
+
+li a:hover {
+
+    background-color: #fff;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
